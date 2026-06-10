@@ -1,7 +1,7 @@
 import os
 from telegram.ext import Application, MessageHandler, CommandHandler, filters
 
-TOKEN = os.environ.get("7551681761:AAEiCm84qUNag1fcl_4pa_rn2iBSLGIrEo")
+TOKEN = os.environ.get("BOT_TOKEN")
 FILE_PATH = "/app/data/hits.txt"
 
 async def save(update, context):
